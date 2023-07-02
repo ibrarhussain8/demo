@@ -11,3 +11,4 @@ In the refactored code, I have made the following changes in BookingController:
     2. Utilize route model binding (e.g., show(Job $job)).
     3. Use Laravel's helper functions (e.g., $request->user(), config(), etc.).
     4. Implement complex business logics in services
+    5. For Repository, Business logics should be divided into seprate methods or services
